@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nonvegfood">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text=" NON VEG FOOD VIDEOS"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="420dp"
+        android:layout_height="565dp"
+        android:background="#f1faee"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c1"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:background="#a8dadc"
+                    android:elevation="20dp"
+                    app:cardCornerRadius="25dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#a8dadc">
+
+                        <ImageView
+
+                            android:layout_width="167dp"
+                            android:layout_height="116dp"
+                            android:layout_marginTop="4dp"
+                            android:src="@drawable/img_8"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="215dp"
+                            android:layout_height="61dp"
+                            android:layout_marginTop="48dp"
+                            android:text="CHICKEN BIRIYANI"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.903"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"></Space>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c2"
+                    android:layout_width="375dp"
+                    android:layout_height="125dp"
+                    android:layout_gravity="center"
+                    android:background="#a8dadc"
+                    android:elevation="20dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="25dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#a8dadc">
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/shawarma"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.072"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="172dp"
+                            android:layout_height="33dp"
+                            android:layout_marginTop="44dp"
+                            android:text="SHAWARMA"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"></Space>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c3"
+                    android:layout_width="match_parent"
+                    android:layout_height="125dp"
+                    android:layout_gravity="center"
+                    android:background="#a8dadc"
+                    android:elevation="20dp"
+                    app:cardCornerRadius="25dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#a8dadc">
+
+                        <ImageView
+
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/barbeeque"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.072"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="159dp"
+                            android:layout_height="69dp"
+                            android:layout_marginTop="40dp"
+                            android:text="BARBEEQUEE"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.83"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"></Space>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"></Space>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c4"
+                    android:layout_width="375dp"
+                    android:layout_height="125dp"
+                    android:layout_gravity="center"
+                    android:background="#a8dadc"
+                    android:elevation="20dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="25dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#a8dadc">
+
+                        <ImageView
+
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/chickenfriedrice"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.072"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="202dp"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="24dp"
+                            android:text=" CHICKEN FRIED RICE"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"></Space>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c5"
+                    android:layout_width="375dp"
+                    android:layout_height="125dp"
+                    android:layout_gravity="center"
+                    android:background="#a8dadc"
+                    android:elevation="20dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="25dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#a8dadc">
+
+                        <ImageView
+
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/muttongr"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.072"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="202dp"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="32dp"
+                            android:text="MUTTON GRAVY"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"></Space>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c6"
+                    android:layout_width="375dp"
+                    android:layout_height="125dp"
+                    android:layout_gravity="center"
+                    android:background="#a8dadc"
+                    android:elevation="20dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="25dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#a8dadc">
+
+                        <ImageView
+
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/butterchicken"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.072"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="195dp"
+                            android:layout_height="58dp"
+                            android:layout_marginTop="32dp"
+                            android:text="BUTTER CHICKEN "
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"></Space>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c7"
+                    android:layout_width="375dp"
+                    android:layout_height="125dp"
+                    android:layout_gravity="center"
+                    android:background="#a8dadc"
+                    android:elevation="20dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="25dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#a8dadc">
+
+                        <ImageView
+
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/fish"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.072"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="202dp"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="32dp"
+                            android:text="FISH FRY"
+                            android:gravity="center"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"></Space>
+
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c8"
+                    android:layout_width="375dp"
+                    android:layout_height="125dp"
+                    android:layout_gravity="center"
+                    android:background="#a8dadc"
+                    android:elevation="20dp"
+                    android:padding="20dp"
+                    app:cardCornerRadius="25dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#a8dadc">
+
+                        <ImageView
+
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/chickenpizza"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.072"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:layout_width="202dp"
+                            android:layout_height="71dp"
+                            android:layout_marginTop="32dp"
+                            android:text="CHICKEN PIZZA"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="1.0"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </androidx.cardview.widget.CardView>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"></Space>
+
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="POWERED BY CAD"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

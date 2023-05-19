@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project"
+        tools:targetApi="31">
+        <activity
+            android:name=".masalpoori"
+            android:exported="false" />
+        <activity
+            android:name=".chickenroll"
+            android:exported="false" />
+        <activity
+            android:name=".paavbaaji"
+            android:exported="false" />
+        <activity
+            android:name=".chickennuggets"
+            android:exported="false" />
+        <activity
+            android:name=".sandwich"
+            android:exported="false" />
+        <activity
+            android:name=".dhaipoori"
+            android:exported="false" />
+        <activity
+            android:name=".samosa"
+            android:exported="false" />
+        <activity
+            android:name=".chickenpizza"
+            android:exported="false" />
+        <activity
+            android:name=".fishfry"
+            android:exported="false" />
+        <activity
+            android:name=".butterchicken"
+            android:exported="false" />
+        <activity
+            android:name=".muttongravy"
+            android:exported="false" />
+        <activity
+            android:name=".chickenfriedrice"
+            android:exported="false" />
+        <activity
+            android:name=".barbeequee"
+            android:exported="false" />
+        <activity
+            android:name=".shawarma"
+            android:exported="false" />
+        <activity
+            android:name=".chickenbiriyani"
+            android:exported="false" />
+        <activity
+            android:name=".vegPasta_video"
+            android:exported="false" />
+        <activity
+            android:name=".vegPizza_video"
+            android:exported="false" />
+        <activity
+            android:name=".aloo_video"
+            android:exported="false" />
+        <activity
+            android:name=".naanButter_video"
+            android:exported="false" />
+        <activity
+            android:name=".mushroomGravy_video"
+            android:exported="false" />
+        <activity
+            android:name=".friedrice_video"
+            android:exported="false" />
+        <activity
+            android:name=".poori_video"
+            android:exported="false" />
+        <activity
+            android:name=".paneer_video"
+            android:exported="false" />
+        <activity
+            android:name=".karadosa_video"
+            android:exported="false" />
+        <activity
+            android:name=".snacks"
+            android:exported="false" />
+        <activity
+            android:name=".nonvegfood"
+            android:exported="false" />
+        <activity
+            android:name=".vegfood"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
